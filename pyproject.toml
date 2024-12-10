@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coursework-databases"
+version = "0.1.0"
+description = ""
+authors = ["elaiviaien <skrypnyk.michael@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlmodel = "^0.0.22"
+pymysql = "^1.1.1"
+python-dotenv = "^1.0.1"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
